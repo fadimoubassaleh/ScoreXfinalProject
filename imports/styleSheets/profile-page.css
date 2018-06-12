@@ -1,0 +1,42 @@
+
+.user-profile{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+.user-profile .main-container{
+    grid-column-start: 2;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+/* 
+.user-profile{
+    .main-container{
+        .first-container{
+            .profile{
+                .add-button .icon{
+                    .add-button .icon:hover
+                }
+                .user-name
+                .profile-decription
+                .profile-options{
+                    .profile-options p
+                    .profile-options a{
+                        .profile-options a:hover
+                        .profile-options a:hover.views-friends .icon
+                        .profile-options a:hover.views-games .icon
+                        .profile-options .icon
+                        .profile-options .views-friends
+                        .profile-options .views-games
+                    }
+                }
+            }
+        }
+        .second-container{
+
+        }
+
+
+*/
+

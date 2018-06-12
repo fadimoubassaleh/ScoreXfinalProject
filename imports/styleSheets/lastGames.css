@@ -1,0 +1,18 @@
+/* 
+.weather{
+    .weather .titular{
+        .weather .titular .icon
+    }
+    .weather .current-day {
+        .weather .current-day.red
+        .weather .current-day.green
+        .weather .current-day p{
+            .current-day-date
+            .current-day-temerature{
+                .current-day-temperature span
+            }
+        }
+    }
+}
+
+*/

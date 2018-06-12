@@ -1,0 +1,349 @@
+.scores-box{
+    min-height: 300px;
+    width: 600px;
+}
+    .scores-box .worning-message{
+        height: 28px;
+        background-color: #FFF9C2;
+        color: #573a08;
+        border-radius: .28571429rem .28571429rem 0 0;
+        box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset, 0 1px 2px 0 rgba(34,36,38,.15);
+        font-size: 13px;
+        padding: 1em 1.5em;
+        line-height: 4px;
+        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    }
+        .scores-box .worning-message i{
+            margin-right: 8px;
+        }
+    .scores-box .header-box{
+        height: 135px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .scores-box .header-box.no-games{
+        text-align: center;
+        display: block;  
+    }
+        .scores-box .header-box .startRound{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+            .scores-box .header-box .startRound .choice.start{
+                
+            }
+                .scores-box .header-box .startRound .choice.start a{
+                    margin: 0;
+                    margin-top: 11px;
+                    margin-left: 8%;
+                    float: left;
+                    background: #fcb150;
+                    display: block;
+                    width: 55%;
+                    line-height: 50px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-align: center;
+                    border-radius: 5px;
+                    -webkit-transition: background .3s;
+                    transition: background .3s;
+                }
+                    .scores-box .header-box .startRound .choice.start a:hover{
+                        background: #cc324b;
+                        text-decoration: none;
+                    }
+                .scores-box .header-box .startRound .choice.start input{
+                    width: 25%;
+                    height: 31px;
+                    padding-left: 0;
+                    text-align: center;
+                    margin: 0;
+                    margin-top: 27px;
+                    margin-left: 6%;
+                    float: left;
+                }
+            .scores-box .header-box .startRound .groups{
+                grid-row-end: 3;
+                grid-row-start: 1;
+                grid-column-start: 2;
+            }
+                .scores-box .header-box .startRound .groups a{
+                    margin: 0;
+                    margin-top: 11px;
+                    margin-left: 28%;
+                    float: left;
+                    background: #e64c65;
+                    display: block;
+                    width: 55%;
+                    line-height: 50px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-align: center;
+                    border-radius: 5px;
+                    -webkit-transition: background .3s;
+                    transition: background .3s;
+                }
+                .scores-box .header-box .startRound .groups a:hover{
+                    background: #cc324b;
+                    text-decoration: none;
+                }
+                .scores-box .header-box .startRound .groups a.chosen{
+                    background: #cc324b;
+                }
+            .scores-box .header-box .startRound ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                width: 88%;
+                margin-left: 6%;
+            }
+                    .scores-box .header-box .startRound ul li p{
+                        margin: 0;
+                        padding: 0;
+                        font-size: 36px;
+                    }
+                    .scores-box .header-box .startRound ul li .black{
+                        border-top: 4px solid #000000;
+                        width: 100%;
+                        line-height: 0;
+                        height: 100%;
+                    }
+                        .scores-box .header-box .startRound ul li .black p{
+                            color: #000000;
+                            width: 50px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    .scores-box .header-box .startRound ul li .red{
+                        border-top: 4px solid #e64c65;
+                        width: 100%;
+                        line-height: 0;
+                        fill: #e64c65;
+                        height: 100%;
+                    }
+                        .scores-box .header-box .startRound ul li .red p{
+                            color: #e64c65;
+                            width: 50px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+            .scores-box .header-box .startRound a{
+                cursor: pointer;
+                width: 100%;
+                display: block;                 
+                width: 99px;
+                line-height: 60px;
+                text-align: center;
+                -webkit-transition: background .3s;
+                transition: background .3s;
+            }
+                .scores-box .header-box .startRound a:hover{
+                    text-decoration: none;
+                    background: #50597b;
+                }
+                .scores-box .header-box .startRound a.chosen{
+                    background: #50597b;
+                }
+        .scores-box .header-box .runRound{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+            .scores-box .header-box .runRound a:hover{
+                text-decoration: none;
+                background: #50597b;
+            }
+            .scores-box .header-box .runRound a{
+                line-height: 36px;
+                background: #e64c65;
+                font-size: 16px;
+                font-weight: 700;
+                border-radius: 5px;
+                float: left;
+                width: 89px;
+                height: 34px;
+                padding: 0;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                -webkit-transition: background .3s;
+                transition: background .3s;
+                margin-left: 3px;
+                margin-top: 23px;
+            }
+                .scores-box .runRound a.win{
+                    margin-left: 49px;
+                    background-color: #11a8ab;
+                }
+                .scores-box .runRound a.chosen{
+                    background-color: #50597b;
+                }
+            .scores-box .header-box .runRound input{
+                float: left;
+                width: 55px;
+                height: 34px;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                margin-left: 3px;
+                margin-top: 23px;
+            }
+            .scores-box .runRound .choice{
+                font-size: 37px;
+                padding-top: 8px;
+                padding-left: 70px;
+            }
+                .scores-box .runRound .choice .redfill{
+                    fill: #e64c65
+                }
+                .scores-box .runRound .choice svg{
+                    width: 38px;
+                }
+                .scores-box .runRound .choice .number{
+                    padding-left: 62px;
+                    padding-right: 10px;
+                    font-size: 53px;
+                }
+        .scores-box .header-box .theEnd{
+            
+        }
+            .scores-box .header-box .theEnd p{
+                font-size: 29px;
+                margin-top: 20px;
+                padding-left: 0;
+            }
+            .scores-box .header-box .theEnd a:hover{
+                background: #fcb150;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .scores-box .header-box .theEnd a{
+                margin: 0;
+                margin-top: 11px;
+                margin-left: 81px;
+                float: left;
+                background: #cc324b;
+                display: block;
+                width: 55%;
+                line-height: 50px;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+                border-radius: 5px;
+                -webkit-transition: background .3s;
+                transition: background .3s;
+            }
+        .scores-box .header-box.no-games p{
+            font-size: 25px;
+            padding-left: 9px;
+            padding-top: 14%;
+        }
+        .scores-box .header-box .last-day-date{
+            padding-left: 0;
+        }
+        .scores-box .header-box p{
+            margin: 0;
+            padding-left: 31px;
+        }
+            .scores-box .last-day-type{
+                font-size: 16px;
+                padding-top: 16px;
+            }
+            .scores-box .last-day-score{
+                font-size: 70px;
+            }
+                .scores-box .last-day-score .winner{
+                    font-size: 70px;
+                }
+            .scores-box .last-day-date{
+                font-size: 27px;
+                padding-top: 29px;
+                line-height: 1.5;
+                text-align: center;
+            }
+        .scores-box .next-games .list-header{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: #fcb150;
+            text-decoration: none;
+        }
+            .scores-box .next-games .list-header:hover{
+                background-color: #fcb150;
+            }
+            .scores-box .next-games .list-header .list-header-1{
+                padding-left: 20px;
+            }
+            .scores-box .next-games .list-header .list-header-2{
+                text-align: center;
+            }
+            .scores-box .next-games .list-header .list-header-3{
+                text-align: right;
+                padding-right: 9px;
+            }
+        .scores-box .next-games .list-body{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-decoration: none;
+        }
+            .scores-box .round{
+                padding-left: 25px;
+            }
+            .scores-box .score{
+                text-align: right;
+                padding-right: 22%;
+            }
+                .scores-box .score span{
+                    font-size: 15px;
+                }
+            .scores-box .next-games .choice{
+                text-align: center;
+                color: #9099b7;
+            }   
+                .scores-box .next-games .choice svg{
+                    width: 17px;
+                }
+                    .scores-box .next-games .choice svg.redfill{
+                        width: 17px;
+                        fill: #e64c65;
+                    }
+                .scores-box .next-games .choice span{
+                    padding-left: 5px;
+                    font-size: 22px;
+                }
+            .scores-box .next-games p{
+                margin: 0;
+                display: inline-block;
+                font-size: 16px;
+            }
+            .scores-box .next-games a{
+                display: block;
+                line-height: 58px;
+                border-bottom: 1px solid #1f253d;
+                -webkit-transition: background .3s;
+                transition: background .3s;
+            }
+                .scores-box .next-games a:hover{
+                    background: #50597b;
+                }
+                .scores-box .next-games a:hover .day{
+                    color: white
+                }
+                .scores-box .next-games a .day.red{
+                    color: #e64c65;
+                }
+                .scores-box .next-games a .day.green{
+                    color: #11a8ab;
+                }
+                ::-ms-input-placeholder{
+                    color: #000000
+                }
+                :-ms-input-placeholder{
+                    color: #000000
+                }
+input::placeholder{
+    color: #000000
+}
+::-webkit-input-placeholder{
+    color: #000000
+}

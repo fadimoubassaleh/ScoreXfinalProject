@@ -1,0 +1,57 @@
+.first-screen{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first-screen div.first-screen-main-container{
+    margin-top: 20%;
+    grid-column-start: 2;
+}
+.first-screen .start-buttom-game {
+    height: 230px;
+}
+    .first-screen .start-buttom-game .titular {
+        padding-top: 38px;
+        font-weight: bold;
+    }
+    .first-screen .start-new-game.button {
+        background: #11a8ab;
+        margin-top: 9px;
+    }
+        .first-screen .start-new-game.button span{
+            font-size: 30px;
+            color: #fcb150
+        }
+        .first-screen .start-new-game.button:hover {
+            background: #0F9295;
+        }
+.first-screen .chose-game {
+    height: 100%;
+    padding-bottom: 9%;
+}
+    .first-screen .chose-game .titular {
+        padding-top: 19px;
+        padding-bottom: 15px;
+        font-weight: bold;
+    }
+    .first-screen .game-start.button {
+        background: #11a8ab;
+        margin-top: 9px;
+    }
+        .first-screen .game-start.button:hover {
+            background: #0F9295;
+        }
+.first-screen .game-type {
+    height: 100%;
+    padding-bottom: 9%;
+}
+    .first-screen .game-type .titular {
+        padding-top: 19px;
+        padding-bottom: 15px;
+        font-weight: bold;
+    }
+    .first-screen .types.button {
+        background: #11a8ab;
+        margin-top: 9px;
+    }

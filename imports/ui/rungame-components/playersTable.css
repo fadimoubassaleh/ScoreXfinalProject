@@ -1,0 +1,261 @@
+.run-game .playersTable{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-row-gap: 50px;
+    position: relative;
+}
+
+.run-game .playersTable .group1 {
+    position: absolute;
+    background: #35aadc;
+    width: 115px;
+    height: 64px;
+    left: 33px;
+    top: 236px;
+    border: 1px solid #35aadc;
+    border-radius: 0 45px 45px 0;
+    text-align: center;
+}
+    .run-game .playersTable .group1 p,
+    .run-game .playersTable .group2 p{
+        margin: 20px 0 5px 0;
+        font-size: 121%;
+        font-weight: bold;
+    }
+.run-game .playersTable .group2 {
+    position: absolute;
+    background: #35aadc;
+    width: 115px;
+    height: 64px;
+    left: 452px;
+    top: 236px;
+    border: 1px solid #35aadc;
+    border-radius: 45px 0 0 45px;
+    text-align: center;
+}
+
+.run-game .playersTable .players {
+    height: auto;
+    width: 223px;
+    margin: 14px auto 0 auto;
+}
+    .run-game .playersTable .players.second {
+        margin: 0 auto 14px auto;
+    }
+    .run-game .playersTable .players .titular {
+        background: #35aadc;
+        height: 37px;
+        line-height: 38px;
+    }
+        .run-game .playersTable .players.second .titular {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+        .run-game .playersTable .players .titular .icon {
+            font-size: 150%;
+            padding-right: 20px;
+
+        }
+    .run-game .playersTable .player.first {
+        height: 194px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        border: 1px solid #35aadc;
+    }
+    
+        .run-game .playersTable .player.first a.anonymous-player:hover{
+            background: #cc324b;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .run-game .playersTable .player.first a.anonymous-player{
+            margin: 4% auto auto auto;
+            background: #e64c65;
+            display: block;
+            width: 85%;
+            height: 60%;
+            line-height: 36px;
+            font-size: 15px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 5px;
+            -webkit-transition: background .3s;
+            transition: background .3s;
+        }
+        .run-game .playersTable .player.first div.addAfriend{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            cursor: pointer;
+        }
+            .run-game .playersTable .player.first div.addAfriend a{
+                margin: 0;
+                margin-top: 8px;
+                margin-bottom: 5px;
+                float: left;
+                background: #e64c65;
+                display: block;
+                width: 90%;
+                height: 48px;
+                line-height: 45px;
+                font-size: 19px;
+                font-weight: 700;
+                text-align: center;
+                border-radius: 0px 5px 5px 0px;
+                -webkit-transition: background .3s;
+                transition: background .3s;
+            }
+            .run-game .playersTable .player.first div.addAfriend a:hover{
+                background: #cc324b;
+                text-decoration: none;
+            }
+        .run-game .playersTable .player.first .react-autosuggest__input{
+            margin: 4%;
+            width: 100%;
+            padding-left: 17px;
+            border-radius: 0;
+            border-right: 0;
+        }
+            .run-game .playersTable .player.first .react-autosuggest__container{
+                width: 167px;
+            }
+        .run-game .playersTable .player.first .react-autosuggest__container--open .react-autosuggest__suggestions-container::-webkit-scrollbar {
+            width: 12px;
+        }
+        .run-game .playersTable .player.first .react-autosuggest__container--open .react-autosuggest__suggestions-container::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            border-radius: 10px;
+        }
+        .run-game .playersTable .player.first .react-autosuggest__container--open .react-autosuggest__suggestions-container::-webkit-scrollbar-thumb {
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+        }
+        .run-game .playersTable .player.first .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+            width: 131%;
+            overflow-y: auto;
+            height:200px;
+        }
+        .run-game .playersTable .player.first .react-autosuggest__container--open .react-autosuggest__suggestions-container li{
+            padding: 4px 7px;
+        }
+        .run-game .playersTable .player-link {
+            color: #4fc4f6;
+            margin: auto;
+            margin-bottom: 0;
+            font-size: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+            .run-game .playersTable .players.second .player-link {
+                grid-row-start: 2;
+            }
+
+
+
+        .run-game .playersTable .ui.small.image{
+            width: 33%;
+            height: auto;
+            margin-top: 9%;
+            margin-left: 5%;
+        }
+        .run-game .playersTable .ui.circular.image{
+            border-radius: 500rem;
+        }
+        .run-game .playersTable .player .profile-picture {
+            border: 5px solid #50597b;
+            width: 115px;
+            height: 115px;
+            margin-top: 10px;  
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .run-game .playersTable .player .profile-picture img{
+            width: 100%;
+        }
+        .run-game .playersTable .player {
+            position: relative;
+        }
+        .run-game .playersTable .player.first .details{
+            display: grid;
+            grid-template-rows: 1fr auto 1fr;
+        }
+        .run-game .playersTable .player.first .details .percentage{
+            display: grid;
+            grid-template-columns: 1fr auto;
+        }
+        .run-game .playersTable .player.first .details .percentage p{
+            font-size: 60%;
+            margin: auto;
+            margin-right: 13%;
+            padding: 0;
+        }
+        .run-game .playersTable .player.first .details p{
+            text-align: center;
+        }
+        .run-game .playersTable div.os-percentage{
+            color: white;
+        }
+
+
+        /* ****************PUPUP STYLE***************** */
+        .ui.top.center.popup {
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+        }
+        .ui.visible.popup {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        .ui.animating.popup, .ui.visible.popup {
+            display: block;
+        }
+        .ui.top.popup {
+            margin: 0 0 .71428571em;
+        }
+        .visible.transition {
+            display: block!important;
+            visibility: visible!important;
+        }
+        .ui.popup {
+            font-size: 93%;
+        }
+        .ui.popup {
+            margin: 0;
+        }
+        .ui.popup {
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            min-width: -webkit-min-content;
+            min-width: -moz-min-content;
+            min-width: min-content;
+            z-index: 1900;
+            box-shadow: 0 0 0 1px #1ebc30 inset, 0 0 0 0 transparent;
+            line-height: 1.4285em;
+            max-width: 250px;
+            background-color: #e5f9e7;
+            padding: .833em 1em;
+            font-weight: 400;
+            font-style: normal;
+            color: #1ebc30;
+            border-radius: .28571429rem;
+            -webkit-box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+            box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+        }
+        .transition {
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+            -webkit-animation-duration: .3s;
+            animation-duration: .3s;
+            -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        

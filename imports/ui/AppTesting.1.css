@@ -1,0 +1,20 @@
+.main-container_1 {
+    font-family: 'Ubuntu', sans-serif;
+    width: 950px;
+    height: 1725px;
+    margin: 6em auto;
+}
+.user-profile_1 .main-container_1{
+    grid-column-start: 2;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto 1fr;
+    grid-gap: 20px;
+}
+.user-profile_1 {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+}
+.container_0{
+    grid-column-start: 2;
+}
