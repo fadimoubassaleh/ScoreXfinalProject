@@ -1,5 +1,6 @@
 import React from 'react'
 import './first-screen.css'
+import { Link } from "react-router-dom";
 
 export default class FirstScreen extends React.Component {
     constructor(){
@@ -24,8 +25,10 @@ export default class FirstScreen extends React.Component {
         const step3 =
             <div className="game-type block">
                 <h2 className="titular">TYPE OF YOUR GAME</h2>
-                <a className="types button" href='./rungame'>GROUPS</a>
-                <a className="types button" href='./rungame'>SINGLE</a>
+                <Link className='types button' to="/rungame">GROUPS</Link>
+                <Link className='types button' to="/rungame">SINGLE</Link>
+                
+                
             </div>
         if (this.state.step === 1) {
             return step1
