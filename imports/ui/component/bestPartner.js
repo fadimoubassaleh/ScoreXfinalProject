@@ -6,8 +6,8 @@ import '../../styleSheets/bestPartner.css'
 
 export default class BestPartner extends React.Component {
     state = {
-        partnerName: 'Jad Sarout',
-        partnerPercentage: '50'
+        partnerName: 'Adam Atien',
+        partnerPercentage: '57'
     }
     render() {
         return (

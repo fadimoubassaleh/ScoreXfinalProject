@@ -6,12 +6,12 @@ export default class LastGames extends React.Component {
         this.state = {
             games: [
                 { date: { name: 'WEN', number: 26, month: 5 }, type: 'Tarnib', score: { high: 31, low: 28 }, win: true },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'Tarnib', score: { high: 31, low: 28 }, win: true },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'Tarnib', score: { high: 31, low: 28 }, win: false },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'Likha', score: { high: 31, low: 28 }, win: true },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'Tarnib', score: { high: 31, low: 28 }, win: false },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'trex', score: { high: 31, low: 28 }, win: false },
-                { date: { name: 'WEN', number: 26, month: 5 }, type: 'Tarnib', score: { high: 31, low: 28 }, win: false },
+                { date: { name: 'FRI', number: 10, month: 5 }, type: 'Tarnib', score: { high: 37, low: -1 }, win: true },
+                { date: { name: 'SUT', number: 28, month: 4 }, type: 'Tarnib', score: { high: 34, low: 14 }, win: false },
+                { date: { name: 'SUN', number: 20, month: 4 }, type: 'Likha', score: { high: 39, low: 28 }, win: true },
+                { date: { name: 'WEN', number: '06', month: 4 }, type: 'Tarnib', score: { high: 31, low: 16 }, win: false },
+                { date: { name: 'WEN', number: 10, month: 3 }, type: 'trex', score: { high: 40, low: -15 }, win: false },
+                { date: { name: 'WEN', number: '06', month: 3 }, type: 'Tarnib', score: { high: 38, low: 30 }, win: false },
             ]
         }
     }
