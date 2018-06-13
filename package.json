@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run -p 3090",
-    "install": "meteor install"
+    "install": "meteor npm install"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.42",
